@@ -1,12 +1,13 @@
-.sidebar{
+.sidebar {
   /* background-color: red; */
   position: fixed;
   left: 1px;
-  bottom:0;
+  bottom: 0;
   top: 75px;
   width: 90px;
 }
-.sidebar-link{
+
+.sidebar-link {
   height: 60px;
   display: flex;
   justify-content: center;
@@ -16,19 +17,23 @@
   z-index: 200;
   padding-top: 18px;
 }
-.sidebar-link:hover{
-background-color: rgba(221, 221, 221, 0.408);
-border-radius: 15px;
+
+.sidebar-link:hover {
+  background-color: rgba(221, 221, 221, 0.408);
+  border-radius: 15px;
+  cursor: pointer;
 
 }
-.sidebar-link img{
+
+.sidebar-link img {
   height: 30px;
   margin-bottom: 8px;
 
 }
-.sidebar-link div{
+
+.sidebar-link div {
   font-size: 13px;
-font-family: Roboto,Arial, sans-serif;
-font-weight: 350;
-/* margin-top: 10px; */
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 350;
+  /* margin-top: 10px; */
 }
