@@ -180,4 +180,32 @@ input:focus {
   width: 40px;
   border-radius: 20px;
   cursor: pointer;
+  opacity: 1;
+}
+
+@media (max-width: 600px) {
+.left-section {
+  margin-left: -80px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+.search-bar{
+  opacity: 0;
+  padding-left: 20px;
+}
+.search-button {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  margin-right: 0px;
+}
+.right-section {
+  margin-left: -45px;
+}
+.voice-search-button{
+  opacity: 0;
+}
+.hamburger-menu {
+  opacity: 0;
+}
 }
