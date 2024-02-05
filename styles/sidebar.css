@@ -49,6 +49,7 @@
 @media (max-width: 600px) {
   .sidebar{
     all: initial;
+    position: fixed;
     background-color: white;
     display: flex;
     flex-direction: row;
